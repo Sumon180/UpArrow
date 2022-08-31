@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.arrow{
+    color: blue;
+    font-size: 2rem;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+/* id for js */
+.arrow.active{
+    display: block;
+}
+
+h1{
+    padding-bottom: 300px;
+}
